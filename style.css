@@ -1,0 +1,29 @@
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+
+.tabs .indicator {
+    background-color: #3CBCD4;
+}
+
+@media screen and (max-width: 600px) {
+    .parallax-container {
+        height: 150px;
+    }
+
+    header{
+        min-height: 500px;
+        background-position: left;
+    }
+}
+
+header{
+    background: url(images/acceuil.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 1000px;
+}
+
+nav{
+    background-color: #252526;
+}
